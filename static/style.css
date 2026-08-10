@@ -209,6 +209,21 @@ body>* {
     line-height: 1.2;
 }
 
+#intro>.desktop-link {
+    margin-top: 8px;
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.4;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    opacity: 0.75;
+    transition: opacity 100ms;
+}
+
+#intro>.desktop-link:hover {
+    opacity: 1;
+}
+
 #intro {
     display: flex;
     position: sticky;
@@ -292,7 +307,7 @@ body>* {
     transform: scale(0.93);
     height: 70px;
     margin-top: 50px;
-    margin-bottom: 8vh;
+    margin-bottom: 0;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
     gap: 10px;
     /* background: var(--bg); */
